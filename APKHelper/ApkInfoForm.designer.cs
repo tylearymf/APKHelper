@@ -73,7 +73,7 @@
             // packageName
             // 
             this.packageName.BackColor = System.Drawing.Color.White;
-            this.packageName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.packageName.ForeColor = System.Drawing.Color.Black;
             this.packageName.Location = new System.Drawing.Point(92, 35);
             this.packageName.Name = "packageName";
             this.packageName.ReadOnly = true;
@@ -83,7 +83,7 @@
             // apkName
             // 
             this.apkName.BackColor = System.Drawing.Color.White;
-            this.apkName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.apkName.ForeColor = System.Drawing.Color.Black;
             this.apkName.Location = new System.Drawing.Point(92, 64);
             this.apkName.Name = "apkName";
             this.apkName.ReadOnly = true;
@@ -104,7 +104,7 @@
             // versionCode1
             // 
             this.versionCode1.BackColor = System.Drawing.Color.White;
-            this.versionCode1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.versionCode1.ForeColor = System.Drawing.Color.Black;
             this.versionCode1.Location = new System.Drawing.Point(92, 126);
             this.versionCode1.Name = "versionCode1";
             this.versionCode1.ReadOnly = true;
@@ -125,7 +125,7 @@
             // versionCode
             // 
             this.versionCode.BackColor = System.Drawing.Color.White;
-            this.versionCode.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.versionCode.ForeColor = System.Drawing.Color.Black;
             this.versionCode.Location = new System.Drawing.Point(92, 97);
             this.versionCode.Name = "versionCode";
             this.versionCode.ReadOnly = true;
@@ -147,7 +147,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("楷体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label6.ForeColor = System.Drawing.Color.Gray;
             this.label6.Location = new System.Drawing.Point(8, 9);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(61, 14);
@@ -166,7 +166,7 @@
             // umAppKey
             // 
             this.umAppKey.BackColor = System.Drawing.Color.White;
-            this.umAppKey.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.umAppKey.ForeColor = System.Drawing.Color.Black;
             this.umAppKey.Location = new System.Drawing.Point(92, 186);
             this.umAppKey.Name = "umAppKey";
             this.umAppKey.ReadOnly = true;
@@ -199,7 +199,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("楷体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label10.ForeColor = System.Drawing.Color.Black;
             this.label10.Location = new System.Drawing.Point(8, 367);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(67, 14);
@@ -218,7 +218,7 @@
             // textSize
             // 
             this.textSize.BackColor = System.Drawing.Color.White;
-            this.textSize.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.textSize.ForeColor = System.Drawing.Color.Black;
             this.textSize.Location = new System.Drawing.Point(92, 446);
             this.textSize.Name = "textSize";
             this.textSize.ReadOnly = true;
@@ -239,7 +239,7 @@
             // textMd5
             // 
             this.textMd5.BackColor = System.Drawing.Color.White;
-            this.textMd5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.textMd5.ForeColor = System.Drawing.Color.Black;
             this.textMd5.Location = new System.Drawing.Point(92, 417);
             this.textMd5.Name = "textMd5";
             this.textMd5.ReadOnly = true;
@@ -260,7 +260,7 @@
             // fileName
             // 
             this.fileName.BackColor = System.Drawing.Color.White;
-            this.fileName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.fileName.ForeColor = System.Drawing.Color.Black;
             this.fileName.Location = new System.Drawing.Point(92, 388);
             this.fileName.Name = "fileName";
             this.fileName.ReadOnly = true;
@@ -295,7 +295,7 @@
             // 
             this.Permission.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Permission.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Permission.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.Permission.ForeColor = System.Drawing.Color.Black;
             this.Permission.FormattingEnabled = true;
             this.Permission.ItemHeight = 12;
             this.Permission.Location = new System.Drawing.Point(92, 252);
@@ -306,7 +306,7 @@
             // qdName
             // 
             this.qdName.BackColor = System.Drawing.Color.White;
-            this.qdName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.qdName.ForeColor = System.Drawing.Color.Black;
             this.qdName.Location = new System.Drawing.Point(92, 155);
             this.qdName.Name = "qdName";
             this.qdName.ReadOnly = true;
@@ -327,7 +327,7 @@
             // bdApiKey
             // 
             this.bdApiKey.BackColor = System.Drawing.Color.White;
-            this.bdApiKey.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.bdApiKey.ForeColor = System.Drawing.Color.Black;
             this.bdApiKey.Location = new System.Drawing.Point(92, 217);
             this.bdApiKey.Name = "bdApiKey";
             this.bdApiKey.ReadOnly = true;

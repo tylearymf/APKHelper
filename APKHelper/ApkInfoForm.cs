@@ -15,9 +15,12 @@ namespace APKHelper
 {
     public partial class ApkInfoForm : Form
     {
-        private string strPath = @"C:\Users\Administrator\Documents\toolsForm\apkInfo";
+        private string strPath;
         public ApkInfoForm()
         {
+            strPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            strPath = Path.Combine(strPath, "toolsForm/apkInfo");
+
             InitializeComponent();
 
             this.StartPosition = FormStartPosition.CenterScreen;
@@ -255,6 +258,8 @@ namespace APKHelper
                     Permission.Items.Add("允许修改Google服务地图");
                 if (Permissions[i] == "android.permission.WRITE_SETTINGS")
                     Permission.Items.Add("允许程序读取或写入系统设置");
+                if (Permissions[i] == "android.permission.INTERNET")
+                    Permission.Items.Add("允许程序访问网络连接");
                 else
                     Permission.Items.Add(Permissions[i]);
             }
