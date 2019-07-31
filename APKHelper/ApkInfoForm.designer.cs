@@ -72,22 +72,28 @@
             // 
             // packageName
             // 
+            this.packageName.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.packageName.BackColor = System.Drawing.Color.White;
             this.packageName.ForeColor = System.Drawing.Color.Black;
             this.packageName.Location = new System.Drawing.Point(92, 35);
             this.packageName.Name = "packageName";
             this.packageName.ReadOnly = true;
-            this.packageName.Size = new System.Drawing.Size(202, 23);
+            this.packageName.Size = new System.Drawing.Size(406, 23);
             this.packageName.TabIndex = 1;
             // 
             // apkName
             // 
+            this.apkName.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.apkName.BackColor = System.Drawing.Color.White;
             this.apkName.ForeColor = System.Drawing.Color.Black;
             this.apkName.Location = new System.Drawing.Point(92, 64);
             this.apkName.Name = "apkName";
             this.apkName.ReadOnly = true;
-            this.apkName.Size = new System.Drawing.Size(202, 23);
+            this.apkName.Size = new System.Drawing.Size(406, 23);
             this.apkName.TabIndex = 3;
             // 
             // label2
@@ -108,7 +114,7 @@
             this.versionCode1.Location = new System.Drawing.Point(92, 126);
             this.versionCode1.Name = "versionCode1";
             this.versionCode1.ReadOnly = true;
-            this.versionCode1.Size = new System.Drawing.Size(107, 23);
+            this.versionCode1.Size = new System.Drawing.Size(302, 23);
             this.versionCode1.TabIndex = 5;
             // 
             // label3
@@ -129,7 +135,7 @@
             this.versionCode.Location = new System.Drawing.Point(92, 97);
             this.versionCode.Name = "versionCode";
             this.versionCode.ReadOnly = true;
-            this.versionCode.Size = new System.Drawing.Size(107, 23);
+            this.versionCode.Size = new System.Drawing.Size(302, 23);
             this.versionCode.TabIndex = 9;
             // 
             // label5
@@ -160,17 +166,20 @@
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.label7.Location = new System.Drawing.Point(94, 14);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(215, 2);
+            this.label7.Size = new System.Drawing.Size(300, 2);
             this.label7.TabIndex = 11;
             // 
             // umAppKey
             // 
+            this.umAppKey.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.umAppKey.BackColor = System.Drawing.Color.White;
             this.umAppKey.ForeColor = System.Drawing.Color.Black;
             this.umAppKey.Location = new System.Drawing.Point(92, 186);
             this.umAppKey.Name = "umAppKey";
             this.umAppKey.ReadOnly = true;
-            this.umAppKey.Size = new System.Drawing.Size(202, 23);
+            this.umAppKey.Size = new System.Drawing.Size(406, 23);
             this.umAppKey.TabIndex = 13;
             // 
             // label8
@@ -210,19 +219,22 @@
             // 
             this.label11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label11.Location = new System.Drawing.Point(79, 373);
+            this.label11.Location = new System.Drawing.Point(94, 373);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(215, 2);
+            this.label11.Size = new System.Drawing.Size(300, 2);
             this.label11.TabIndex = 17;
             // 
             // textSize
             // 
+            this.textSize.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textSize.BackColor = System.Drawing.Color.White;
             this.textSize.ForeColor = System.Drawing.Color.Black;
             this.textSize.Location = new System.Drawing.Point(92, 446);
             this.textSize.Name = "textSize";
             this.textSize.ReadOnly = true;
-            this.textSize.Size = new System.Drawing.Size(202, 23);
+            this.textSize.Size = new System.Drawing.Size(406, 23);
             this.textSize.TabIndex = 23;
             // 
             // label12
@@ -238,12 +250,15 @@
             // 
             // textMd5
             // 
+            this.textMd5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textMd5.BackColor = System.Drawing.Color.White;
             this.textMd5.ForeColor = System.Drawing.Color.Black;
             this.textMd5.Location = new System.Drawing.Point(92, 417);
             this.textMd5.Name = "textMd5";
             this.textMd5.ReadOnly = true;
-            this.textMd5.Size = new System.Drawing.Size(202, 23);
+            this.textMd5.Size = new System.Drawing.Size(406, 23);
             this.textMd5.TabIndex = 21;
             // 
             // label13
@@ -259,12 +274,15 @@
             // 
             // fileName
             // 
+            this.fileName.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.fileName.BackColor = System.Drawing.Color.White;
             this.fileName.ForeColor = System.Drawing.Color.Black;
             this.fileName.Location = new System.Drawing.Point(92, 388);
             this.fileName.Name = "fileName";
             this.fileName.ReadOnly = true;
-            this.fileName.Size = new System.Drawing.Size(202, 23);
+            this.fileName.Size = new System.Drawing.Size(406, 23);
             this.fileName.TabIndex = 19;
             // 
             // label14
@@ -281,10 +299,9 @@
             // pictureBox
             // 
             this.pictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox.ErrorImage = global::APKHelper.Properties.Resources.znds;
-            this.pictureBox.Image = global::APKHelper.Properties.Resources.znds;
-            this.pictureBox.InitialImage = global::APKHelper.Properties.Resources.znds;
-            this.pictureBox.Location = new System.Drawing.Point(206, 93);
+            this.pictureBox.ErrorImage = null;
+            this.pictureBox.InitialImage = null;
+            this.pictureBox.Location = new System.Drawing.Point(410, 95);
             this.pictureBox.Name = "pictureBox";
             this.pictureBox.Size = new System.Drawing.Size(88, 85);
             this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -293,6 +310,9 @@
             // 
             // Permission
             // 
+            this.Permission.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Permission.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Permission.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Permission.ForeColor = System.Drawing.Color.Black;
@@ -300,7 +320,7 @@
             this.Permission.ItemHeight = 12;
             this.Permission.Location = new System.Drawing.Point(92, 252);
             this.Permission.Name = "Permission";
-            this.Permission.Size = new System.Drawing.Size(202, 112);
+            this.Permission.Size = new System.Drawing.Size(406, 112);
             this.Permission.TabIndex = 25;
             // 
             // qdName
@@ -310,7 +330,7 @@
             this.qdName.Location = new System.Drawing.Point(92, 155);
             this.qdName.Name = "qdName";
             this.qdName.ReadOnly = true;
-            this.qdName.Size = new System.Drawing.Size(107, 23);
+            this.qdName.Size = new System.Drawing.Size(302, 23);
             this.qdName.TabIndex = 27;
             // 
             // label4
@@ -326,12 +346,15 @@
             // 
             // bdApiKey
             // 
+            this.bdApiKey.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.bdApiKey.BackColor = System.Drawing.Color.White;
             this.bdApiKey.ForeColor = System.Drawing.Color.Black;
             this.bdApiKey.Location = new System.Drawing.Point(92, 217);
             this.bdApiKey.Name = "bdApiKey";
             this.bdApiKey.ReadOnly = true;
-            this.bdApiKey.Size = new System.Drawing.Size(202, 23);
+            this.bdApiKey.Size = new System.Drawing.Size(406, 23);
             this.bdApiKey.TabIndex = 29;
             // 
             // label15
@@ -351,7 +374,7 @@
             this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(318, 478);
+            this.ClientSize = new System.Drawing.Size(522, 478);
             this.Controls.Add(this.bdApiKey);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.qdName);
@@ -387,6 +410,7 @@
             this.Name = "ApkInfoForm";
             this.Text = "APK Helper";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ApkInfoForm_FormClosing);
+            this.Load += new System.EventHandler(this.ApkInfoForm_Load);
             this.DragDrop += new System.Windows.Forms.DragEventHandler(this.ApkInfoForm_DragDrop);
             this.DragEnter += new System.Windows.Forms.DragEventHandler(this.ApkInfoForm_DragEnter);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();

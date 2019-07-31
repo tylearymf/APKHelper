@@ -15,6 +15,9 @@ namespace APKHelper
 {
     public partial class ApkInfoForm : Form
     {
+        [System.Runtime.InteropServices.DllImport("user32.dll")]
+        private static extern bool SetForegroundWindow(IntPtr hWnd);
+
         private string strPath;
         public ApkInfoForm()
         {
@@ -105,6 +108,8 @@ namespace APKHelper
             versionCode1.Text = apk.versionName;
 
             #region MyRegion
+            Permission.Items.Clear();
+
             //Permissions 
             for (int i = 0; i < Permissions.Count; i++)
             {
@@ -276,8 +281,9 @@ namespace APKHelper
 
             this.Refresh();
 
-
+            SetForegroundWindow(this.Handle);
         }
+
         //拖放时发生
         private void ApkInfoForm_DragEnter(object sender, DragEventArgs e)
         {
@@ -334,6 +340,9 @@ namespace APKHelper
             return info;
         }
 
+        private void ApkInfoForm_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 }
